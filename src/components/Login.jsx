@@ -12,6 +12,9 @@ function Login() {
 	const { register, handleSubmit } = useForm();
 	const [error, setError] = useState("");
 	const [isLoading, setIsLoading] = useState(false);
+	const handleRefresh = () => {
+		window.location.reload();
+	};
 
 	const login = async (data) => {
 		setError("");
@@ -27,6 +30,7 @@ function Login() {
 					dispatch(authLogin({ userData }));
 				}
 				navigate("/");
+				handleRefresh();
 			}
 		} catch (error) {
 			setError(error.message);
