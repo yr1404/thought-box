@@ -1,0 +1,164 @@
+@font-face {
+	font-family: "Lexend";
+	src: url("./assets/fonts/Lexend-Thin.ttf");
+	font-weight: 100;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "Lexend";
+	src: url("./assets/fonts/Lexend-ExtraLight.ttf");
+	font-weight: 200;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "Lexend";
+	src: url("./assets/fonts/Lexend-Light.ttf");
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "Lexend";
+	src: url("./assets/fonts/Lexend-Regular.ttf");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "Lexend";
+	src: url("./assets/fonts/Lexend-Medium.ttf");
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "Lexend";
+	src: url("./assets/fonts/Lexend-SemiBold.ttf");
+	font-weight: 600;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "Lexend";
+	src: url("./assets/fonts/Lexend-Bold.ttf");
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "Lexend";
+	src: url("./assets/fonts/Lexend-ExtraBold.ttf");
+	font-weight: 800;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "Lexend";
+	src: url("./assets/fonts/Lexend-Black.ttf");
+	font-weight: 900;
+	font-style: normal;
+	font-display: swap;
+}
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body {
+	/* max-width: 1280px; */
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	font-family: "Lexend", sans-serif;
+	background: rgb(0, 0, 0);
+	background: linear-gradient(
+		90deg,
+		rgba(0, 0, 0, 1) 5%,
+		rgba(21, 21, 28, 1) 27%,
+		rgba(3, 7, 18, 1) 69%,
+		rgba(2, 7, 31, 1) 88%
+	);
+}
+.navbar{
+  box-shadow: 0 0 150px 4px #ffffff10;
+}
+
+.mce-content-body {
+	background: #aa5c5c;
+}
+
+.logo {
+	height: 6em;
+	padding: 1.5em;
+	will-change: filter;
+	transition: filter 300ms;
+}
+.logo:hover {
+	filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+	filter: drop-shadow(0 0 2em #61dafbaa);
+}
+.loader {
+    border: 4px solid rgba(0, 0, 0, 0.1);
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    border-top-color: #3498db;
+    animation: spin 1s ease-in-out infinite;
+}
+
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
+@keyframes logo-spin {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
+
+@media (prefers-reduced-motion: no-preference) {
+	a:nth-of-type(2) .logo {
+		animation: logo-spin infinite 20s linear;
+	}
+}
+
+.card {
+	padding: 2em;
+}
+
+.read-the-docs {
+	color: #000000;
+}
+
+.ant-drawer-body {
+	border-top: 2px solid #5e646d;
+	background-color: #000000d6;
+	font-weight: 600;
+	font-size: larger;
+	height: calc(100vh);
+	padding: 0px !important;
+}
+.ant-drawer-header  {
+	background-color: rgb(39, 39, 39);
+
+}
+
+.ant-drawer-close  {
+	color: #fff !important;
+	align-items: start !important;
+	font-size: 28px !important;
+	width: 100% !important;
+}
+.ant-drawer-close span{
+	width: 100% !important;
+}
