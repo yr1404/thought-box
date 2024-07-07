@@ -45,9 +45,9 @@ function HomeSideBox({ post }) {
 					<div className="flex items-center text-gray-400/80 mt">
 						<div className="s:w-[40px] s:h-[40px] w-[27px] h-[27px] rounded-full border-2 border-white bg-gray-400"></div>
 						<div className="block pl-2 leading-3">
-							<span className="text-xs">Sachin kumar</span>
+							<span className="text-xs">Rishu Kumar</span>
 							<br />
-							<span className="text-[0.5rem]">29 may 2022</span>
+							<span className="text-[0.5rem]">29 may 2024</span>
 						</div>
 					</div>
 				</div>
